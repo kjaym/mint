@@ -374,7 +374,7 @@ ISO CIF::read(const Text& content, double clusterTol)
 			}
 			
 			// Add elements
-			numToAdd = Num<double>::round(numToAdd, 1);
+			numToAdd = 0;//Num<double>::round(numToAdd, 1);
 			if (numToAdd > 0)
 			{
 				
